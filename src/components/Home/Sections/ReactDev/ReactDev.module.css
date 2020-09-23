@@ -1,0 +1,14 @@
+.ReactDev {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #61DBFB;
+  color: white;
+  grid-column: 3/5;
+  grid-row: 1/2;
+}
+
+.Icon {
+  color: white;
+  font-size: 45px;
+}

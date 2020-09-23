@@ -1,0 +1,11 @@
+.Photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Photo img {
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 4px 1px 7px 0px rgba(0, 0, 0, 0.5);
+}

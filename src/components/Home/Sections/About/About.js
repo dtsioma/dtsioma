@@ -1,12 +1,16 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUserAstronaut } from '@fortawesome/free-solid-svg-icons';
 
 import classes from './About.module.css';
-import AboutTitle from './AboutTitle/AboutTitle';
+import Title from '../../../Text/Title/Title';
 
 const About = () => {
   return (
     <div className={classes.About}>
-      <AboutTitle />
+      <Title text="Who I am" bold size="Regular">
+        <FontAwesomeIcon icon={faUserAstronaut}/>
+      </Title>
       <p className={classes.Paragraph}>
         Hi, I am Daniil, and I am a Web Developer living in Happy Valley, Oregon. I started to create websites when I was 14, working on freelance projects for clients from Ukraine, Russia, and countries of Eastern Europe. In February 2020, I moved to the United States, which opened to me new opportunities for cooperation and experience growth.
       </p>

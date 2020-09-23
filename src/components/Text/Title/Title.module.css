@@ -1,0 +1,15 @@
+.Text {
+  margin-left: 10px;
+}
+
+.Bold {
+  font-weight: 700;
+}
+
+.SizeRegular {
+  font-size: 35px;
+}
+
+.SizeSmaller {
+  font-size: 30px;
+}

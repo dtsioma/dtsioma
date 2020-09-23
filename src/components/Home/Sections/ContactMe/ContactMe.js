@@ -1,20 +1,20 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact } from '@fortawesome/free-brands-svg-icons';
+import { faComment } from '@fortawesome/free-regular-svg-icons';
 import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
 
-import classes from './ReactDev.module.css';
+import classes from './ContactMe.module.css';
 import Title from '../../../Text/Title/Title';
 
-const ReactDev = () => {
+const ContactMe = () => {
   return (
-    <div className={classes.ReactDev}>
+    <div className={classes.ContactMe}>
       <FontAwesomeIcon icon={faAngleDoubleRight} className={classes.GoArrow} />
-      <Title text="React" size="Regular">
-        <FontAwesomeIcon icon={faReact} />
+      <Title text="Contact Me" size="Smaller">
+        <FontAwesomeIcon icon={faComment} />
       </Title>
     </div>
   );
 };
 
-export default ReactDev;
+export default ContactMe;

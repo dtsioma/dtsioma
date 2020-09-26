@@ -18,18 +18,3 @@
 .Icon {
   font-size: 35px;
 }
-
-.GoArrow {
-  position: absolute;
-  top: 0;
-  right: 15px;
-  font-size: 40px;
-  color: rgba(255, 255, 255, 0.1);
-  opacity: 0;
-  transition: all 0.3s ease;
-}
-
-.WordPressDev:hover .GoArrow {
-  right: 5px;
-  opacity: 1;
-}

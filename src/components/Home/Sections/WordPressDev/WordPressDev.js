@@ -1,15 +1,17 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWordpress } from '@fortawesome/free-brands-svg-icons';
-import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
 
 import classes from './WordPressDev.module.css';
 import Title from '../../../Text/Title/Title';
+import GoArrow from '../../GoArrow/GoArrow';
+import SectionLink from '../SectionLink/SectionLink';
 
-const WordPressDev = () => {
+const WordPressDev = (props) => {
   return (
     <div className={classes.WordPressDev}>
-      <FontAwesomeIcon icon={faAngleDoubleRight} className={classes.GoArrow} />
+      <SectionLink to={{pathname: '/wordpress', state: { prevPath: '/' }}} />
+      <GoArrow />
       <Title text="WordPress" size="Smaller">
         <FontAwesomeIcon icon={faWordpress} className={classes.Icon} />
       </Title>

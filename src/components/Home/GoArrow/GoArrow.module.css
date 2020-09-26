@@ -1,0 +1,14 @@
+.GoArrow {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  font-size: 3.5rem;
+  color: rgba(255, 255, 255, 0.2);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+:hover > .GoArrow {
+  right: 5px;
+  opacity: 1;
+}

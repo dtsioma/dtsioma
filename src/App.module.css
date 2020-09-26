@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
 
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: ghostwhite;
-}
-
 .App {
   font-family: 'Montserrat', sans-serif;
   display: grid;
   min-height: 100vh;
-  grid-template-rows: 140px auto;
+  grid-template-rows: 120px auto;
+  transition: all 0.3s ease;
+}
+@media (min-width: 1200px) {
+  .App {
+    grid-template-rows: 140px auto;
+  }
+}
+@media (min-width: 1500px) {
+  .App {
+    grid-template-rows: 180px auto;
+  }
 }

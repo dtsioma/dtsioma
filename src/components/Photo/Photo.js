@@ -7,7 +7,7 @@ import circlePhoto from '../../assets/images/photo-circle.png';
 const Photo = (props) => {
   return (
     <div className={classes.Photo}>
-      <img src={circlePhoto} alt="Daniil Tsioma" style={{width: props.width + 'px'}}/>
+      <img src={circlePhoto} alt="Daniil Tsioma"/>
     </div>
   );
 };

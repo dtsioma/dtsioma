@@ -14,27 +14,8 @@
 .ReactDev:hover {
   background-color: #4DABC3;
 }
-
-.ReactDev:hover::after {
-  color: rgba(255, 255, 255, 0.4);
-}
  
 .Icon {
   color: white;
   font-size: 45px;
-}
-
-.GoArrow {
-  position: absolute;
-  top: 0;
-  right: 15px;
-  font-size: 40px;
-  color: rgba(255, 255, 255, 0.2);
-  opacity: 0;
-  transition: all 0.3s ease;
-}
-
-.ReactDev:hover .GoArrow {
-  right: 5px;
-  opacity: 1;
 }

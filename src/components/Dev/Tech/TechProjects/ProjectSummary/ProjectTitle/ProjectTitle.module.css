@@ -1,0 +1,5 @@
+.ProjectTitle {
+  display: flex;
+  align-items: center;
+  grid-row: 2/3;
+}

@@ -1,0 +1,10 @@
+.ProjectImage {
+  /* width: 100%; */
+  grid-row: 1/2;
+}
+
+.ProjectImage img {
+  width: auto;
+  height: 150px;
+  object-fit: cover;
+}

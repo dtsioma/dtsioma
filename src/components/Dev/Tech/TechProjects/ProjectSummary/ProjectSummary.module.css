@@ -1,0 +1,11 @@
+.ProjectSummary {
+  display: grid;
+  background-color: ghostwhite;
+  grid-template-rows: 150px 50px;
+}
+
+.ProjectImage {
+  width: 100%;
+  height: auto;
+  grid-row: 1/2;
+}

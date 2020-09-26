@@ -1,0 +1,8 @@
+.TechProjects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-auto-rows: 200px;
+  grid-row-gap: 20px;
+  padding: 40px 30px 30px;
+}
